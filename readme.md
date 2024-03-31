@@ -12,4 +12,22 @@ The `uniquecodegenerator` npm package provides a simple and versatile solution f
 You can install the package via npm:
 
 ```bash
-npm install uniquecodegenerator
+npm install uniquecodegenerator 
+
+const UniqueIdGenerator = require('unique-id-generator');
+
+// Create an instance of the UniqueIdGenerator
+const idGenerator = new UniqueIdGenerator();
+
+// Generate a numeric ID with a specified length
+const numericId1 = idGenerator.generateUniqueId('123', 6);
+
+// Generate another numeric ID with a specified length
+const numericId2 = idGenerator.generateUniqueId('num', 6);
+
+// Generate an alphanumeric ID with a specified length
+const alphanumericId = idGenerator.generateUniqueId('abc123', 8);
+
+console.log(numericId1); // Output: "604937"
+console.log(numericId2); // Output: "892346"
+console.log(alphanumericId); // Output: "R7bF9tCp"
