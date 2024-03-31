@@ -1,0 +1,11 @@
+const UniqueIdGenerator = require('./uniqueIdGenerator');
+
+const idGenerator = new UniqueIdGenerator();
+
+const numericId1 = idGenerator.generateUniqueId('123', 6);
+const numericId2 = idGenerator.generateUniqueId('num', 6);
+const alphanumericId = idGenerator.generateUniqueId('abc123', 8);
+
+console.log(numericId1); // Output: "604937"
+console.log(numericId2); // Output: "892346"
+console.log(alphanumericId); // Output: "R7bF9tCp"
