@@ -1,6 +1,6 @@
 {
   "name": "uniquecodegenerator",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "The unique-id-generator npm package provides a simple and versatile solution for generating unique identifiers in JavaScript projects. It offers the flexibility to generate IDs consisting of numeric digits or a combination of alphanumeric characters. With customizable options for specifying ID type (numeric or alphanumeric) and length, developers can easily integrate this package to create unique identifiers tailored to their application's needs.",
   "main": "uniqueIdGenerator.js",
   "scripts": {
