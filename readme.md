@@ -14,7 +14,7 @@ You can install the package via npm:
 ```bash
 npm install uniquecodegenerator 
 
-const UniqueIdGenerator = require('unique-id-generator');
+const UniqueIdGenerator = require('uniquecodegenerator');
 
 // Create an instance of the UniqueIdGenerator
 const idGenerator = new UniqueIdGenerator();
